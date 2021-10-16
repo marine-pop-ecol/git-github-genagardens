@@ -1,0 +1,20 @@
+---
+title: "assignment 1"
+author: "gena Desjardin"
+date: "10/15/2021"
+output: pdf_document
+---
+gena 
+**SFU**
+*Burnt Orange*
+```{r}
+x = c(1,2,3)
+y = c(3,4,5)
+data = data.frame(x,y)
+
+library(here)
+write.csv(data,here("./data/student-data.csv"))
+```
+
+
+
